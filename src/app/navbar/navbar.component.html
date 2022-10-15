@@ -1,13 +1,14 @@
+
 <nav class="navbar navbar-expand-md navbar-light  bg-light">
 
-    <a class="navbar-brand" href="#">Carousel</a>
+    <img [src]="imageUrl" alt="formalab logo " width="100px">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
 
-        <form class="form-inline my-2 my-lg-0 ml-auto">
+        <form class="form-inline d-flex my-2 my-lg-0  mx-5">
             <button class="btn btn-info my-2 my-sm-0" [routerLink]="['/login']">Login</button>
             <button class="btn btn-primary mx-3 my-2 my-sm-0" [routerLink]="['/register']">Register</button>
         </form>
